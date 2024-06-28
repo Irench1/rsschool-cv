@@ -1,9 +1,9 @@
 # Irina Chupina
 
 ## Contacts
-**Phone:** +7 923 149 8991  
 **E-mail:** irench15@gamil.com  
-**GitHub:** Irench1  
+**GitHub:** Irench1   
+**Discord name:** Irina (@Irench1)  
 **Telegram:** @Rinaire
 
 ## About Me
