@@ -29,6 +29,12 @@ summand = 1;
 }
 console.log(sum);
 ```
-## Educational project
-https://github.com/Irench1/Simple-site.git 
+## Experience
+Educational project https://github.com/Irench1/Simple-site.git 
+
+## Education
+- Kemerovo State University
+    + Faculty of Mathematics
+- The Center for Advanced Training and vocational training
+    + Testing specialist in the field of information technology
 
