@@ -33,8 +33,12 @@ console.log(sum);
 Educational project https://github.com/Irench1/Simple-site.git 
 
 ## Education
-- Kemerovo State University
+- **Kemerovo State University**
     + Faculty of Mathematics
-- The Center for Advanced Training and vocational training
+- **The Center for Advanced Training and vocational training**
     + Testing specialist in the field of information technology
+
+## Languages 
+- **Russian** - native speaker
+- **English** - Pre-Independent
 
