@@ -1,7 +1,7 @@
 # Irina Chupina
 
 ## Contacts
-**E-mail:** irench15@gamil.com  
+**E-mail:** irench15@gmail.com  
 **GitHub:** Irench1   
 **Discord name:** Irina (@Irench1)  
 **Telegram:** @Rinaire
