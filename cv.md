@@ -40,5 +40,5 @@ Educational project https://github.com/Irench1/Simple-site.git
 
 ## Languages 
 - **Russian** - native speaker
-- **English** - Pre-Independent
+- **English** - Pre-Intermediate
 
