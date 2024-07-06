@@ -3,100 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My CV</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#contact">Contacts</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#skill">Skills</a></li>
-          <li><a href="#example">Code example</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#language">Languages</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav>
+          <ul class="menu">
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#example">Code</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#language">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <img src="photo.JPG" alt="My photo" />
+      <div class="container">
         <h1>Irina Chupina</h1>
-        <div>
-          <h3 id="contact">Contacts</h3>
-          <ul>
-            <li><span class="contact">E-mail:</span> irench15@gmail.com</li>
-            <li><span class="contact">GitHub:</span> Irench1</li>
-            <li><span class="contact">Discord name:</span> Irina (@Irench1)</li>
-            <li><span class="contact">Telegram:</span> @Rinaire</li>
-          </ul>
-        </div>
-      </section>
-      <section>
-        <article>
-          <h3 id="about">About Me</h3>
+        <section class="first">
+          <div class="photo">
+            <img id="photo" src="photo.JPG" alt="My photo" />
+          </div>
+          <div class="name">
+            <h2 id="contact">Contacts</h2>
+            <ul>
+              <li><span class="contact">E-mail:</span> irench15@gmail.com</li>
+              <li><span class="contact">GitHub:</span> Irench1</li>
+              <li>
+                <span class="contact">Discord name:</span> Irina (@Irench1)
+              </li>
+              <li><span class="contact">Telegram:</span> @Rinaire</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h2 id="about">About Me</h2>
           <p>
             I have extensive experience in the HR department of the bank.<br />I
             am interested in changing my field of activity. I have a desire to
             become a web developer.
           </p>
-        </article>
-        <article>
-          <h3 id="skill" >Skills</h3>
+        </section>
+        <section>
+          <h2 id="skill">Skills</h2>
           <ul>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript Basics</li>
             <li>GitHub</li>
           </ul>
-        </article>
-        <article>
-          <h3 id="example">Code example</h3>
-          <code>
-            <pre>
+        </section>
+        <section>
+          <h2 id="example">Code example</h2>
+          <pre><code>
 let n = parseInt(prompt());
 sum = 0;
 summand = 1;
-for (i = 1; i<=n; i++) {
-  for(j=1; j <=i; j++) {
+for (i = 1; i &lt;= n; i++) {
+  for(j = 1; j &lt;= i; j++) {
     summand = summand * 3;
   }
 sum = sum + summand;  
 summand = 1; 
 }
 console.log(sum);
-            </pre>
-          </code>
-        </article>
-        <article">
-          <h3 id="project">Educational projects</h3>
+          </code></pre>
+        </section>
+        <section>
+          <h2 id="project">Educational projects</h2>
           <ul>
-            <li><a href="https://github.com/Irench1/Simple-site.git">Simple site</a></li>
+            <li>
+              <a href="https://github.com/Irench1/Simple-site.git"
+                >Simple site</a
+              >
+            </li>
             <li><a href="https://github.com/Irench1/rsschool-cv.git">CV</a></li>
           </ul>
-        </article>
-        <article>
-          <h3 id="education">Education</h3>
+        </section>
+        <section>
+          <h2 id="education">Education</h2>
           <ul>
-            <li><span class="education">Kemerovo State University</span><br>Faculty of Mathematics</li>
-            <li><span class="education">The Center for Advanced Training and vocational training</span><br>Testing specialist in the field of information technology</li>
+            <li>
+              <span class="education">Kemerovo State University</span
+              ><br />Faculty of Mathematics
+            </li>
+            <li>
+              <span class="education"
+                >The Center for Advanced Training and vocational training</span
+              ><br />Testing specialist in the field of information technology
+            </li>
           </ul>
-        </article>
-        <article>
-          <h3 id="language">Languages</h3>
+        </section>
+        <section>
+          <h2 id="language">Languages</h2>
           <ul>
             <li><span class="language">Russian</span> - native speaker</li>
             <li><span class="language">English</span> - Pre-Intermediate</li>
           </ul>
-        </article>
-      </section>
+        </section>
+      </div>
     </main>
     <footer>
-      <p>2024 <a href="https://github.com/Irench1">My GitHub</a></p>
-      <div>
-        <a href="https://rs.school/courses/javascript-ru"><img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg" alt="RS School logo" width="80" height="30"></a>
+      <div class="container">
+        <p>2024 <a href="https://github.com/Irench1">My GitHub</a></p>
+        <div>
+          <a href="https://rs.school/courses/javascript-ru"
+            ><img
+              src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg"
+              alt="RS School logo"
+              width="80"
+              height="30"
+          /></a>
+        </div>
       </div>
     </footer>
   </body>
