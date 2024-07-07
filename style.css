@@ -1,7 +1,4 @@
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+
 .menu{
     display: flex; 
     width: 30%;   
@@ -11,11 +8,20 @@
     padding-left: 0px;
     list-style-type: none    
 }
+/* .footer{
+    display: flex; 
+     
+    justify-content: flex-start;
+} */
 a{
     text-decoration: none;
+    
 }
 span{
     font-weight: bold;
+}
+.developer{
+    font-weight: bold; 
 }
 .first{
     display: flex;
@@ -27,5 +33,22 @@ span{
     
 }
 .name{
-    width: 90%;
+    width: 90%;     
 }
+
+.contact{
+    list-style-type: none
+}
+#contact{
+    padding-left: 40px;
+}
+#photo{
+    border-radius: 45%;
+}
+main{
+    margin-bottom: 50px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
