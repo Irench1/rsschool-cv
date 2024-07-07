@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="menu">
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#example">Code</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#language">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Irina Chupina</h1>
+        <p class="developer">Front-End Developer (beginner)</p>
+        <section class="section-one">
+          <div class="photo">
+            <img id="photo" src="photo.JPG" alt="My photo">
+          </div>
+          <div class="name">
+            <h2 id="contact">Contacts</h2>
+            <ul class="contact">
+              <li><span>E-mail:</span> irench15@gmail.com</li>
+              <li><span>GitHub:</span> Irench1</li>
+              <li><span>Discord name:</span> Irina (@Irench1)</li>
+              <li><span>Telegram:</span> @Rinaire</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h2 id="about">About Me</h2>
+          <p>
+            I have extensive experience in the HR department of the bank.<br>I
+            am interested in changing my field of activity. I have a desire to
+            become a web developer.
+          </p>
+        </section>
+        <section>
+          <h2 id="skill">Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript Basics</li>
+            <li>GitHub</li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="example">Code example</h2>
+          <pre><code>
+let n = parseInt(prompt());
+sum = 0;
+summand = 1;
+for (i = 1; i &lt;= n; i++) {
+  for(j = 1; j &lt;= i; j++) {
+    summand = summand * 3;
+  }
+sum = sum + summand;  
+summand = 1; 
+}
+console.log(sum);
+          </code></pre>
+        </section>
+        <section>
+          <h2 id="project">Educational projects</h2>
+          <ul>
+            <li>
+              <a href="https://irench1.github.io/Simple-site/" target="_blank"
+                >Simple site</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://irench1.github.io/rsschool-cv/"
+                target="_blank"
+                >CV</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="education">Education</h2>
+          <ul>
+            <li>
+              <span class="education">Kemerovo State University</span
+              ><br>Faculty of Mathematics
+            </li>
+            <li>
+              <span class="education"
+                >The Center for Advanced Training and vocational training</span
+              ><br>Testing specialist in the field of information technology
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="language">Languages</h2>
+          <ul>
+            <li><span class="language">Russian</span> - native speaker</li>
+            <li><span class="language">English</span> - Pre-Intermediate</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer">
+        <p class="gh">
+          2024
+          <a href="https://github.com/Irench1" target="_blank">My GitHub</a>
+        </p>
+        <div>
+          <a
+            href="https://rs.school/courses/javascript-ru"
+            target="_blank"
+            ><img
+              class="logo"
+              src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg"
+              alt="RS School logo"></a>
+          <a href="https://rs.school/courses/javascript-ru" target="_blank">JavaScript/Front-end Course</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
